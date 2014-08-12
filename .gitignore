@@ -1,0 +1,21 @@
+/**/.sass-cache
+/node_modules
+/build/*
+!/build/.gitkeep
+
+# os dump files
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+._*
+.Trashes
+.Spotlight-V100
+
+/vendor
+composer.phar
+composer.lock
+
+
+# vim generated .swp files
+**/*.swp
