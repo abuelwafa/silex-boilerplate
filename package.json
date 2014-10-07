@@ -1,0 +1,33 @@
+{
+  "name": "silex_boilerplate",
+  "version": "0.0.1",
+  "description": "Web application boilerplate using silex php micro framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abuelwafa/silex-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "php",
+    "grunt",
+    "silex"
+  ],
+  "author": {
+	  "name": "Mohamed Ali Abuelwafa",
+	  "email": "mohamed.abuelwafa@gmail.com",
+	  "url": "https://github.com/abuelwafa"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuelwafa/silex-boilerplate/issues"
+  },
+  "homepage": "https://github.com/abuelwafa/silex-boilerplate",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.7.4",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
