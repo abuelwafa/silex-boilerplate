@@ -16,6 +16,17 @@ Thumbs.db
 composer.phar
 composer.lock
 
+# copmpiled css from sass and grunt build process
+# source css in styles/ folder
+/public/css/*
+!/public/css/.gitkeep
+
+# copmpiled javascript from grunt build process
+# source javascript in scripts/ folder
+/public/js/*
+!/public/js/.gitkeep
+
+
 
 # vim generated .swp files
 **/*.swp
