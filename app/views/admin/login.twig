@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Silex App - Admin Login</title>
+
+	<link rel="stylesheet" href="{{ app.request.getUriForPath('/css/admin.css') }}" />
+
+	<script src="{{ app.request.getUriForPath('/js/modernizr.js') }}"></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="maincontent">
+
+			<div class="container">
+				<form action="{{ app.url_generator.generate('admin_authenticate') }}" method="post" role="form" class="login-form">
+					{{ error }}
+					<div class="form-group">
+						<label for="_username">Username</label>
+						<input type="text" name="_username" value="{{ last_username }}" class="form-control" />
+					</div>
+
+					<div class="form-group">
+						<label for="_password">Password</label>
+						<input type="password" name="_password" value="" class="form-control" />
+					</div>
+
+					<div class="form-group">
+						<input type="submit" class="btn btn-primary" />
+					</div>
+				</form>
+			</div>
+
+		</div><!-- end of .maincontent -->
+
+	</div><!-- end of .wrapper -->
+
+	<script src="{{ app.request.getUriForPath('/js/jquery.js') }}"></script>
+	<script src="{{ app.request.getUriForPath('/js/admin.js') }}"></script>
+</body>
+</html>
+

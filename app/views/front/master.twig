@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Silex Boilerplate</title>
+
+	<link rel="stylesheet" href="{{ app.request.getUriForPath('/css/style.css') }}" />
+
+	<script src="{{ app.request.getUriForPath('/js/modernizr.js') }}"></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<header>
+			<p>this is the master template view</p>
+		</header>
+
+		<div class="maincontent">
+			{% block mainContent %}{% endblock %}
+		</div><!-- end of .maincontent -->
+
+		<footer>
+			<p>Developed By <a href="http://abuelwafa.net" target="_blank" title="Mohamed Ali Abuelwafa">@abuelwafa</a></p>
+		</footer>
+
+	</div><!-- end of .wrapper -->
+
+	<script src="{{ app.request.getUriForPath('/js/jquery.js') }}"></script>
+	<script src="{{ app.request.getUriForPath('/js/script.js') }}"></script>
+</body>
+</html>
+
