@@ -16,7 +16,7 @@ $app->register(new Silex\Provider\SecurityServiceProvider(), [
 			'users' => [
 				// user is for development purpose only
 				// raw password is admin
-				'admin' => ['ROLE_ADMIN', 'nhDr7OyKlXQju+Ge/WKGrPQ9lPBSUFfpK+B1xqx/+8zLZqRNX0+5G1zBQklXUFy86lCpkAofsExlXiorUcKSNQ=='],
+				'admin' => ['ROLE_ADMIN', 'nhDr7OyKlXQju+Ge/WKGrPQ9lPBSUFfpK+B1xqx/+8zLZqRNX0+5G1zBQklXUFy86lCpkAofsExlXiorUcKSNQ==']
 			]
 		]
 	]
@@ -29,7 +29,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), [
 		"dbname" => "database_name",
 		"host" => "localhost",
 		"user" => "root",
-		"password" => "root",
+		"password" => "root"
 	]
 ]);
 
